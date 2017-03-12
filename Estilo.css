@@ -1,0 +1,163 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 28/04/2016, 23:25:16
+    Author     : ieleny
+*/
+
+.Banner{   
+    position: relative;
+    width: 100%; 
+}
+
+.ImagenSobre{
+    position: relative;
+    width: 100%;
+    top: 0;
+}
+
+.ImagenSobre img{
+ width: 50%;  
+}
+
+.Banner img{
+    width: 75%; 
+}
+
+body{
+    background-image: url("Imagens/cinza.jpg");
+    width:100%;
+    position: relative;
+     
+}
+
+.menu{
+    
+    height: 50px;
+    margin-top: 20px;
+    margin-right: 10px;
+    margin-left: 10px;
+  
+}
+
+.login{
+    
+    width: 40%;
+    position: relative;
+    float:top;
+    left:1000px;
+    
+}
+
+.Conteudo{
+    
+    font-family: arial;
+    background : #e8e8e8;
+    height: 100%;
+    margin-top: 10px;
+    margin-right: 25px;
+    margin-left: 25px;
+    border-width: 5px;
+    border-style: outset;
+    border-color:  slategrey;
+    
+}
+
+.contudosobre{
+    
+    border-width: 5px;
+    border-bottom: inset;
+    border-left: none;
+    border-right:none;
+    border-top: none;
+    border-color: slategrey;
+    border-bottom-left-radius: 50px;  
+}
+
+.justificado{
+  margin-left: 3%;
+  margin-right: 3%;
+}
+
+.Centrobotão{
+  margin-left: 37%;
+}
+
+.reponsivo{
+    margin-top: 20px;
+    margin-bottom: -100px;
+  }
+  
+  // Pra ficar no lugar 
+.navbar-wrapper {
+   position: absolute;
+   top: 0;
+   left: 0;
+   right: 0;
+   z-index: 10;
+}
+
+.pont
+{
+    position: absolute;
+    width: 100%;
+    left: 0;
+    text-align: center;
+    margin:0 auto;
+
+}
+
+.nav{ 
+    
+    font-size: 20px;
+    font-family: arial;
+    font-style: italic;
+    text-align: right;
+}
+
+.cor{
+    
+   color: #000;
+}
+
+.slide1{
+    
+  background-color: rgba(0,0,0,0);
+  position: absolute;
+  left: 585px;
+  bottom: 125px;
+  z-index: 10;
+  padding: 0 0 10px 25px;
+  color: #fff;
+  text-align: left;
+  
+}
+
+.caixinha{
+    height: 500px;
+    border-style: outset;
+    width:50%;
+    margin-top: 2%;
+    margin-left: 28%;
+    margin-bottom: 10%;
+    background-color: #fff;
+
+}
+
+.linha{
+    
+    border-bottom: inset;
+    border-color: slategrey;
+    border-bottom-width: 8px;
+    border-bottom-left-radius: 50px;  
+    border-bottom-right-radius: 40px;
+     
+}
+
+.texto{
+    
+      margin-left: 18%;
+}
